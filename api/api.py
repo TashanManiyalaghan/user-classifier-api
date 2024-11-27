@@ -6,7 +6,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-from models.choices import db, Question, Choice
+from .models.choices import db, Question, Choice
 import re
 import os
 
